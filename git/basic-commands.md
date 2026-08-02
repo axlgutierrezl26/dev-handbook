@@ -25,6 +25,14 @@ Posterior del anterior comando, solo sera necesario ejecutar
 ```git push```
 
 
+### Cambiar usuario global en Git
+
+1. Verificacion del usuario global
+```git config --global --list```
+2. Para cambiar algunos datos<br>
+```user.name=Axel Gutierrez Lopez```<br>
+```user.email=tu_correo@gmail.com```
+
 
 
 
