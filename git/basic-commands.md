@@ -19,6 +19,7 @@ origin  https://github.com/usuario/ordercraft-docs.git (push)<br>
 6. Subir el proyecto
 ```git add .``` (Se encarga de avisar que se agrega un nuevo cambio)
 ```git commit -m 'init project'``` (Se encarga de agregar un mensaje al cambio)
+```git branch -M main``` (Si el repositorio esta limpio es necesario generar una rama principal llamada main)
 ```git push -u origin main``` (La primera vez se debe de utilizar -u es importante porque configura el upstream)<br>
 Posterior del anterior comando, solo sera necesario ejecutar
 ```git push```
