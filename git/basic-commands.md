@@ -16,10 +16,10 @@ Se debe de visualizar algo asi:<br>
 Ejemplo:<br>
 origin  https://github.com/usuario/ordercraft-docs.git (fetch)<br>
 origin  https://github.com/usuario/ordercraft-docs.git (push)<br>
-6. Subir el proyecto
-```git add .``` (Se encarga de avisar que se agrega un nuevo cambio)
-```git commit -m 'init project'``` (Se encarga de agregar un mensaje al cambio)
-```git branch -M main``` (Si el repositorio esta limpio es necesario generar una rama principal llamada main)
+6. Subir el proyecto<br>
+```git add .``` (Se encarga de avisar que se agrega un nuevo cambio)<br>
+```git commit -m 'init project'``` (Se encarga de agregar un mensaje al cambio)<br>
+```git branch -M main``` (Si el repositorio esta limpio es necesario generar una rama principal llamada main)<br>
 ```git push -u origin main``` (La primera vez se debe de utilizar -u es importante porque configura el upstream)<br>
 Posterior del anterior comando, solo sera necesario ejecutar
 ```git push```
