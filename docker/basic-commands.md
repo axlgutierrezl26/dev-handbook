@@ -35,4 +35,9 @@ rm: eliminar el contenedor <br>
 -f (--force) : forzar eliminacion e incluso si el contenedor esta en ejecucion (internamente docker realiza un ```docker stop```) <br>
 code: es el nombre (o el ID) del contenedor que quieres eliminar. (containerID: puede ser el ID o el nombre del contenedor.)
 
+###
+
+1. Crear una base de datos en postgres
+```docker container run --name postgres-sale -p 5432:5432 -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=admin -e POSTGRES_DB=crud_api_sale -d postgres```<br>
+
 
